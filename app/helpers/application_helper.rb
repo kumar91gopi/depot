@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
 # published by The Pragmatic Bookshelf.
@@ -13,4 +14,7 @@ module ApplicationHelper
     end
     content_tag("div", attributes, &block)
   end
+=======
+module ApplicationHelper
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3
 end

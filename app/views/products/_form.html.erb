@@ -1,12 +1,20 @@
 <%= form_for(@product) do |f| %>
   <% if @product.errors.any? %>
     <div id="error_explanation">
+<<<<<<< HEAD
       <h2><%= pluralize(@product.errors.count, "error") %>
       prohibited this product from being saved:</h2>
 
       <ul>
       <% @product.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
+=======
+      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% @product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3
       <% end %>
       </ul>
     </div>
@@ -18,9 +26,13 @@
   </div>
   <div class="field">
     <%= f.label :description %><br>
+<<<<<<< HEAD
 <!-- START_HIGHLIGHT -->
     <%= f.text_area :description, rows: 6 %>
 <!-- END_HIGHLIGHT -->
+=======
+    <%= f.text_area :description %>
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3
   </div>
   <div class="field">
     <%= f.label :image_url %><br>
@@ -33,4 +45,8 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+<<<<<<< HEAD
 <% end %>
+=======
+<% end %>
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3

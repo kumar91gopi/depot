@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # Read about fixtures at
 # http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3
 
 one:
   title: MyString
@@ -12,6 +16,7 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+<<<<<<< HEAD
 #START:ruby
 
 ruby: 
@@ -23,3 +28,5 @@ ruby:
   price:       49.50
   image_url:   ruby.png 
 #END:ruby
+=======
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3

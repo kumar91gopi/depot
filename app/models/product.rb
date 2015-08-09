@@ -1,4 +1,5 @@
 class Product < ActiveRecord::Base
+<<<<<<< HEAD
   has_many :line_items
 
   before_destroy :ensure_not_referenced_by_any_line_item
@@ -29,4 +30,6 @@ class Product < ActiveRecord::Base
         return false
       end
     end
+=======
+>>>>>>> e0e97db8733a55d7064ff6e22f6209b9491886f3
 end
